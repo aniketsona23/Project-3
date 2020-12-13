@@ -1,0 +1,186 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.intro {
+    width: 100%;
+    height: 120vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-image: url(https://i.pinimg.com/originals/c4/9a/20/c49a207e0f89c9290d98fd43a87a8cb0.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: translateY(-16%);
+}
+
+nav {
+    position: fixed !important;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 70px;
+    z-index: 99;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link {
+    font-size: 25px;
+    transition: all 500ms;
+    color: white !important;
+    ;
+}
+
+.nav-link:hover {
+    font-size: 35px;
+    color: coral !important;
+}
+
+.hero {
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.hero-text {
+    margin-left: 100px;
+}
+
+.head {
+    font-size: 80px;
+    color: orangered
+}
+
+.hero-text span {
+    font-size: 30px;
+    margin-left: 130px;
+}
+
+.some {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    justify-content: space-evenly;
+    background-color: orange;
+    height: 50vh;
+}
+
+.someof {
+    padding: 90px;
+    background-color: white;
+    clip-path: circle(40%);
+    height: fit-content;
+}
+
+.line {
+    background-color: black;
+    width: 150px;
+    height: 10px;
+}
+
+.features {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.feature-text {
+    width: 50%;
+    font-size: 30px;
+}
+
+.features img {
+    clip-path: circle(40%);
+}
+
+p {
+    font-size: 80px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    background-color: skyblue;
+    margin: 0px !important;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 100px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    margin-top: 40px;
+    width: 300px;
+    font-size: 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    font-size: 30px !important;
+    background-color: cyan;
+    width: 200px;
+    border-radius: 8px !important;
+    margin-top: 30px !important;
+}
+
+.cards {
+    display: flex;
+}
+
+.card {
+    height: 330px !important;
+    width: 350px;
+    margin: 30px;
+    font-size: 30px;
+    padding: 30px;
+    transition: all 500ms;
+    background-color: black;
+}
+
+.card h2 {
+    font-size: 60px;
+}
+
+.card:hover {
+    box-shadow: cyan 5px 5px 5px 0px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.social img {
+    padding: 20px;
+}
+
+.img3:hover {
+    color: skyblue;
+}
